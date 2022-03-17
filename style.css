@@ -1,0 +1,34 @@
+h1 {
+  font-family: "League Gothic", sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Barlow Condensed", sans-serif;
+  text-align: center;
+}
+
+p {
+  font-family: "Patrick Hand", cursive;
+  text-align: left;
+}
+
+section {
+  border: solid;
+  border-width: thin;
+  padding: 20px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+}
+#button {
+  margin: 20px;
+  height: 50px;
+  border-radius: 20px;
+  border-width: thin;
+}
+
+.button :hover {
+  background-color: grey;
+}
